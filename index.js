@@ -17,7 +17,7 @@ function calc(){
                     }else{
                      let num = (select.value*amt)/pplAmt ;
                     let n = num.toFixed(2);
-                    document.getElementById("tip").innerHTML=`TIP AMOUNT<br>${n}`;
+                    document.getElementById("tip").innerHTML=`TIP AMOUNT<br><h4>${n}</h4>`;
                     }
 				
 			}
